@@ -1,0 +1,20 @@
+# Minimum CVSS to include (float)
+cvss_min: 7.0
+
+# Days back for NVD CVE query window
+nvd_days_back: 14
+
+# Keywords applied in NVD query (OR). Leave empty to include all.
+keywords:
+  - Asterfusion
+  - AsterNOS
+  - SONiC
+  - ArubaOS
+
+# Vendor RSS feeds (you can add/remove here)
+vendors:
+  - { title: "Cisco PSIRT Advisories", url: "https://sec.cloudapps.cisco.com/security/center/psirtTerseRss20" }
+  - { title: "Fortinet / FortiGuard Advisories", url: "https://www.fortiguard.com/rss" }
+  - { title: "Sophos Security Advisories", url: "https://www.sophos.com/en-us/security-advisories/rss" }
+  - { title: "Palo Alto Networks – Security Advisories", url: "https://securityadvisories.paloaltonetworks.com/rss.xml" }
+  - { title: "Juniper JSA Security Advisories", url: "https://kb.juniper.net/InfoCenter/index?page=content&channel=SECURITY_ADVISORIES&rss=1" }
